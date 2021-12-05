@@ -89,10 +89,10 @@ let setting = JSON.parse(fs.readFileSync('./setting.json'))
 
 owner = setting.owner
 gamewaktu = setting.gamewaktu
-fake = `卍𝚑𝚎𝚛𝚖𝙰𝚗 𝚋𝚘𝚝` 
-footerr = `卍𝚑𝚎𝚛𝚖𝙰𝚗 𝚋𝚘𝚝` 
+fake = `ZYS BOT` 
+footerr = `ZYS BOT` 
 bio = `Sibuk`
-yt = `Herman Chanel`
+yt = `-`
 banChats = true
 
 // Database
@@ -1148,9 +1148,9 @@ case 'public':
 sendButLocation(from, `${nono}`,
 `${footerr}`, {jpegThumbnail: fakeimage}, 
 [
-{buttonId:`${prefix}owner`,buttonText:{displayText:'卍 OWNER 卍'},type:1},
+{buttonId:`${prefix}owner`,buttonText:{displayText:' OWNER '},type:1},
 
-{buttonId:`${prefix}sc`,buttonText:{displayText:'卍 SCRIP 卍'},type:1}
+{buttonId:`${prefix}sc`,buttonText:{displayText:' SCRIP '},type:1}
 ], 
 {sendEphemeral: true, contextInfo: { mentionedJid: [sender, tagme + "@s.whatsapp.net"]}})
 break
@@ -1667,22 +1667,31 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://telegra.ph/file/f32aab47db2b80b63e779.jpg'
-              teksnya = `*── 「 PRICE LIST 」 ──*
+              gopeynya = 'https://g.top4top.io/p_2165lgbfe0.jpg'
+              teksnya = `*PROMO NIH*
 
-*Tarif Premium User adalah 10K Perbulan*
-*Keuntungan Premium Diantaranya:*
-♲ *Bebas memakai fitur premium*
-♲ *Dapat Informasi Lebih dulu akan Update, Nomor Bot Baru (Jika Terbanned), dan Lainnya*
-
-*Jika Tertarik,Kalian Bisa Bayar Melalui Metode Pembayaran di Bawah:*
-*Dana : 0831-462-08804*
-*Gopay : 0831-4593-2464*
-*Atau Gopay pada gambar diatas*
-
-*Info Lebih Lengkap Chat Owner, Ketik ${prefix}owner*
-*_note_*:
-*Pembelian Premium yang disertai SewaBot hanya akan membayar 20K (Diskon 5K)*`
+┏━━━━⬣ *FITUR BOT*
+┃⬡ _ANTILINK_
+┃⬡ _WELCOME IMAGE + BUTTON_
+┃⬡ _BUTTON CMD_
+┃⬡ _STICKER CMD_
+┃⬡ _DAN BANYAK FITUR LAINNYA_
+┗⬣
+┏━━━━⬣ *LIST HARGA*
+┃⬡ _SEWA+PREM 5k / BULAN_
+┃⬡ _SEWA +PREM 10k /PERMANEN_
+┗⬣
+┏━━━━⬣ *PAYMENT*
+┃⬡ _PULSA_
+┃⬡ _DANA_
+┗⬣
+┏━━━━⬣ *MINAT HUBUNGI*
+┃⬡ _Owner : wa.me/6289512497753_
+┗⬣
+┏━━━━⬣ *SISTEM*
+┃⬡ _BISA DI TES DAHULU_
+┃⬡ _SEND LINK GRUP-AKTIFIN-TF-DONE_
+┗⬣`
               client.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
               break
 //------------------< Sticker Cmd >-------------------
@@ -3033,7 +3042,7 @@ client.sendMessage(from, ItsMeHerman, MessageType.audio, {quoted: ftroli, mimety
               break        
       case 'donate': 
       case 'donasi':
-              textImg(`Donasi Om Buat Beli Kouta:(\nDana :083146208804\nPulsa :083146208804\nGopay :-\nSeiklas nya Om:(`)
+              textImg(`Donasi Om Buat Beli Kouta:(\nDana :089512497753\nPulsa :089512497753\nGopay :-\nSeiklas nya Om:(`)
 ItsMeHerman = fs.readFileSync('./Lagu Nya Kawan/herman3.mp3');
 client.sendMessage(from, ItsMeHerman, MessageType.audio, {quoted: ftroli, mimetype: 'audio/mp4', ptt:true})
               break
